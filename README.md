@@ -73,6 +73,8 @@ Default configuration
 
 * replace application.html.erb with application.html.haml
 
+* remove/test directory (as this causes conflicts with rspec, spork and guard)
+
 
 Setup
 ------------
