@@ -79,11 +79,11 @@ Default configuration
 Setup
 ------------
 
-* Clone the repository `git clone \[repo url\] \[new project name\]`
+* Clone the repository `git clone [repo url] [new project name]`
 
 * Remove git, run: `rm -rf .git`
 
-* Update the project name in config/application.rb
+* Update reference to `BaseProject` to new project name (via find and replace) 
 
 * Create config/database.yml (see gist for format)
 
