@@ -83,11 +83,11 @@ Setup
 
 * Remove git, run: `rm -rf .git`
 
-* Update reference to `BaseProject` to new project name (via find and replace) 
+* Update reference to `BaseProject` to new project name via project wid find and replace
 
 * Create config/database.yml (see gist for format)
 
-* Run `bundle install`
+* Run `bundle install --binstubs .bundle/bin`
 
 * Run `rbenv rehash` (to update the binstubs)
 
