@@ -71,6 +71,7 @@ Default configuration
 
 * update spec/spec_helper.rb with spork, factory_girl, capybara and database_cleaner settings
 
+* replace application.html.erb with application.html.haml
 
 
 Setup
@@ -86,6 +87,11 @@ Setup
 
 * Create config/database.yml (see gist for format)
 
+* Run `bundle install`
+
+* Run `rbenv rehash` (to update the binstubs)
+
+* Run `db:create:all`
 
 
 

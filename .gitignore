@@ -19,7 +19,7 @@
 /vendor/bundle/
 
 # Ignore databse config
-/database.yml
+/config/database.yml
 
 # Ignore session security file
 .secret
