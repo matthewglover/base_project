@@ -56,8 +56,35 @@ Default Gems
 * rails_12factor
 
 
+Default configuration
+-------------------
+
+* Bundler run with binstubs to be installed at .bundle/bin
+
+* `rails generate rspec:install` run
+
+* `--format-documentation` added to .rspec
+
+* config/application.rb updated with rspec and factory_girl generator settings
+
+* create Guardfile with settings for rspec, spork, growl and livereload
+
+* update spec/spec_helper.rb with spork, factory_girl, capybara and database_cleaner settings
+
+
+
 Setup
 ------------
+
+* Clone the repository
+
+* Remove git, run: `rm -rf .git`
+
+* Rename directory to your_project
+
+* Update the project name in config/application.rb
+
+* Create config/database.yml (see gist for format)
 
 
 
