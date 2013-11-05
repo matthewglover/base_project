@@ -27,7 +27,7 @@ Default Gems
 * haml-rails
 * zurb-foundation
 
-### Developoment/Testing Tools 
+### Development/Testing Tools 
 
 * guard-rspec
 * guard-spork
@@ -56,7 +56,7 @@ Default Gems
 * rails_12factor
 
 
-Default configuration
+Default configuration covered by base_project
 -------------------
 
 * Bundler run with binstubs to be installed at .bundle/bin
