@@ -61,7 +61,7 @@ Default configuration
 
 * Bundler run with binstubs to be installed at .bundle/bin
 
-* `rails generate rspec:install` run
+* run `rails generate rspec:install` 
 
 * `--format-documentation` added to .rspec
 
@@ -79,11 +79,9 @@ Default configuration
 Setup
 ------------
 
-* Clone the repository
+* Clone the repository `git clone \[repo url\] \[new project name\]`
 
 * Remove git, run: `rm -rf .git`
-
-* Rename directory to your_project
 
 * Update the project name in config/application.rb
 
