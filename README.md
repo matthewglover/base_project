@@ -73,9 +73,11 @@ Default configuration covered by base_project
 
 * replace application.html.erb with application.html.haml
 
-* remove/test directory (as this causes conflicts with rspec, spork and guard)
+* remove/test directory (as this is unnecessary and causes conflicts with rspec, spork and guard)
 
-* includes bootstrap sass (application.js configured with boostrap.js but css needs to be configured - see Setup for more)
+* includes bootstrap sass (application.js configured with bootstrap.js and bootstrap.css configured via custom.css.scss)
+
+* layout.html.haml updated to incorporate bootstrap (based on Bootstrap 3 Basic Template)
 
 
 Setup
@@ -89,13 +91,11 @@ Setup
 
 * Create config/database.yml (see gist for format)
 
-* To include bootstrap.css, add the include `@import "bootstrap";` to the top of a css file (e.g. custom.css.scss)
-
 * Run `bundle install --binstubs .bundle/bin`
 
 * Run `rbenv rehash` (to update the binstubs)
 
-* Run `db:create:all`
+* Run `rake db:create:all`
 
 * Replace this README.md
 
