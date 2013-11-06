@@ -9,7 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'zurb-foundation', '~> 4.0.0'
+gem 'bootstrap-sass', '~> 3.0.0.0.rc'
 
 group :development do
   gem 'guard-rspec', '~> 3.0.2'

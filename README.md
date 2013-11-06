@@ -25,7 +25,7 @@ Default Gems
 ### Layout/View
 
 * haml-rails
-* zurb-foundation
+* twitter-bootstrap
 
 ### Development/Testing Tools 
 
@@ -83,7 +83,7 @@ Setup
 
 * Remove git, run: `rm -rf .git`
 
-* Update reference to `BaseProject` to new project name via project wid find and replace
+* Update reference to `BaseProject` to new project name via project wide find and replace
 
 * Create config/database.yml (see gist for format)
 
