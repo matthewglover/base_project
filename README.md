@@ -83,6 +83,12 @@ Default configuration covered by base_project
 
 * Note: jasmine examples creates files in app/assets/javascripts directory which should be removed from production version
 
+* Add leaflet.js (v 0.6.4) and css files to `vendor/assets`
+
+* Add backbone-min.js (v 1.0.0) to `vendor/assets`
+
+* Add underscore-min.js (v 1.5.2) to `vendor/assets`
+
 
 Setup
 ------------
