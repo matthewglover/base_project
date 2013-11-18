@@ -11,6 +11,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass', '~> 3.0.0.0.rc'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.14.0'
+  gem 'factory_girl_rails', '~> 4.2.1'
+  gem 'jasmine'
+end
+
 group :development do
   gem 'guard-rspec', '~> 3.0.2'
   gem 'guard-spork', '~> 1.5.1'
@@ -22,11 +28,6 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-end
-
-group :development, :test do
-  gem 'rspec-rails', '~> 2.14.0'
-  gem 'factory_girl_rails', '~> 4.2.1'
 end
 
 group :test do

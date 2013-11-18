@@ -79,6 +79,10 @@ Default configuration covered by base_project
 
 * layout.html.haml updated to incorporate bootstrap (based on Bootstrap 3 Basic Template)
 
+* Jasmine gem installed, `rails g jasmine:install` and `rails g jasmine:examples` commands run
+
+* Note: jasmine examples creates files in app/assets/javascripts directory which should be removed from production version
+
 
 Setup
 ------------
